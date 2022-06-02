@@ -12,7 +12,7 @@ Api uygulamalarında Jwt tokenlardaki claims leri otomatik olarak class modelimi
 - startup.cs dosyanıza gerekli reegisterları yapmalısınız.
 - Aşağıdaki örnekte kullanılan "TokenSessionModel" class property'lerini kendi claimslerinize göre düzenlemelisiniz. Ya da kendi model class'ınız ile değiştirmelisiniz. 
 - Propertilerin tipleri string olmalıdır.
-
+- Kütüphaneyi projesinize ekledikten sonra ihtiyaçlarınıza göre kütüphane kodlarında gerekli düzenlemeleri gerçekleştirebilirsiniz.
 ```csharp
 
 public void ConfigureServices(IServiceCollection services)
