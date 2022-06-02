@@ -35,12 +35,22 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 	
 	public GameQueries(IPerRequestCacheManager requestCacheManager)
 	{
-		 _requestCacheManager = requestCacheManager;
-    }
+		_requestCacheManager = requestCacheManager;
+	}
 	
 	public void Login()
-    {
+	{
 		var tokenSession = _requestCacheManager.GetSession<TokenSessionModel>();
 	}
+}
+```
+- Örnek TokenSessionModel class
+
+```csharp
+public class TokenSessionModel
+{
+	public string UserGuidId { get; set; }
+	public string FullName { get; set; }
+	public string LastLoginDate { get; set; }
 }
 ```
