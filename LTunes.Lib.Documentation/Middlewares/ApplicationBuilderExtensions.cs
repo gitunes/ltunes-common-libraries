@@ -1,4 +1,4 @@
-﻿namespace DogusOto.Lib.Documentation.Middlewares
+﻿namespace LTunes.Lib.Documentation.Middlewares
 {
     public static class ApplicationBuilderExtensions
     {

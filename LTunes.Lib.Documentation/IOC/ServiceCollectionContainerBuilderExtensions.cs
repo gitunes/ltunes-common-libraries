@@ -1,4 +1,4 @@
-﻿namespace DogusOto.Lib.Documentation.IOC
+﻿namespace LTunes.Lib.Documentation.IOC
 {
     public static class ServiceCollectionContainerBuilderExtensions
     {

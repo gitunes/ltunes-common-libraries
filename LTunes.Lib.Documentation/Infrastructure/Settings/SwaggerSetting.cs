@@ -1,4 +1,4 @@
-﻿namespace DogusOto.Lib.Documentation.Infrastructure.Settings
+﻿namespace LTunes.Lib.Documentation.Infrastructure.Settings
 {
     public interface ISwaggerSetting : ISetting
     {

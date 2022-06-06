@@ -1,4 +1,4 @@
-﻿namespace DogusOto.Lib.Documentation.Infrastructure.Constants
+﻿namespace LTunes.Lib.Documentation.Infrastructure.Constants
 {
     internal static class ExceptionMessage
     {
