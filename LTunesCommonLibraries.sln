@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SessionExtendMiddleware", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{B14B1DBE-BE26-468A-973C-2D31F064D91D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTunes.Lib.Documentation", "LTunes.Lib.Documentation\LTunes.Lib.Documentation.csproj", "{FDC4859F-F1FF-4722-A6F9-806079711F39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTunes.Lib.Documentation", "src\libs\documentation\LTunes.Lib.Documentation\LTunes.Lib.Documentation.csproj", "{FDC4859F-F1FF-4722-A6F9-806079711F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
