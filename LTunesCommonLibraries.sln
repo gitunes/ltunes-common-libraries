@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F2DBE74-50B8-42C6-9294-F98849A279E0}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "middleware", "middleware", "{D30CD291-8313-4B7E-A641-F402DD9305CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SessionExtendMiddleware", "src\libs\middleware\SessionExtendMiddleware\SessionExtendMiddleware.csproj", "{6CCDC2C0-DDBE-4850-A364-3E837B99491B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{B14B1DBE-BE26-468A-973C-2D31F064D91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTunes.Lib.Documentation", "LTunes.Lib.Documentation\LTunes.Lib.Documentation.csproj", "{FDC4859F-F1FF-4722-A6F9-806079711F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,10 @@ Global
 		{6CCDC2C0-DDBE-4850-A364-3E837B99491B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CCDC2C0-DDBE-4850-A364-3E837B99491B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CCDC2C0-DDBE-4850-A364-3E837B99491B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC4859F-F1FF-4722-A6F9-806079711F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC4859F-F1FF-4722-A6F9-806079711F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC4859F-F1FF-4722-A6F9-806079711F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC4859F-F1FF-4722-A6F9-806079711F39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +37,8 @@ Global
 		{249652E8-0B50-4098-A748-3AA47660FD87} = {4F2DBE74-50B8-42C6-9294-F98849A279E0}
 		{D30CD291-8313-4B7E-A641-F402DD9305CA} = {249652E8-0B50-4098-A748-3AA47660FD87}
 		{6CCDC2C0-DDBE-4850-A364-3E837B99491B} = {D30CD291-8313-4B7E-A641-F402DD9305CA}
+		{B14B1DBE-BE26-468A-973C-2D31F064D91D} = {249652E8-0B50-4098-A748-3AA47660FD87}
+		{FDC4859F-F1FF-4722-A6F9-806079711F39} = {B14B1DBE-BE26-468A-973C-2D31F064D91D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D456D214-D4E5-4522-9CA8-BC84C74F4C82}
