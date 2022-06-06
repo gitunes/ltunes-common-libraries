@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F2DBE74-50B8-42C6-9294-F98849A279E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{249652E8-0B50-4098-A748-3AA47660FD87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "middleware", "middleware", "{D30CD291-8313-4B7E-A641-F402DD9305CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SessionExtendMiddleware", "src\libs\middleware\SessionExtendMiddleware\SessionExtendMiddleware.csproj", "{6CCDC2C0-DDBE-4850-A364-3E837B99491B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CCDC2C0-DDBE-4850-A364-3E837B99491B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCDC2C0-DDBE-4850-A364-3E837B99491B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCDC2C0-DDBE-4850-A364-3E837B99491B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCDC2C0-DDBE-4850-A364-3E837B99491B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{249652E8-0B50-4098-A748-3AA47660FD87} = {4F2DBE74-50B8-42C6-9294-F98849A279E0}
+		{D30CD291-8313-4B7E-A641-F402DD9305CA} = {249652E8-0B50-4098-A748-3AA47660FD87}
+		{6CCDC2C0-DDBE-4850-A364-3E837B99491B} = {D30CD291-8313-4B7E-A641-F402DD9305CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D456D214-D4E5-4522-9CA8-BC84C74F4C82}
+	EndGlobalSection
+EndGlobal
