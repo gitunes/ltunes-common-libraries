@@ -18,4 +18,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="6.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\LTunes.Lib.Shared\LTunes.Lib.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

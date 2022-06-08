@@ -1,7 +1,7 @@
 ﻿global using LTunes.Lib.Documentation.Infrastructure.Constants;
 global using LTunes.Lib.Documentation.Infrastructure.Settings;
-global using DogusOto.Lib.Shared.Settings;
-global using DogusOto.Lib.Shared.Utilities;
+global using LTunes.Lib.Shared.Settings;
+global using LTunes.Lib.Shared.Utilities;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.AspNetCore.Builder;
 global using Microsoft.AspNetCore.Hosting;
