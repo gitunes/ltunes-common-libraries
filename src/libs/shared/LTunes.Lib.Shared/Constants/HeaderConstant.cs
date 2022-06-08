@@ -3,7 +3,7 @@
     /// <summary>
     /// Const header for http client
     /// </summary>
-    public struct HeaderKey
+    public static class HeaderKey
     {
         public const string Authentication = "Authentication";
         public const string Authorization = "Authorization";
