@@ -44,7 +44,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 	}
 }
 ```
-- Örnek TokenSessionModel class
+- Örnek ISwaggerSetting interface
 
 ```csharp
 public interface ISwaggerSetting : ISetting
