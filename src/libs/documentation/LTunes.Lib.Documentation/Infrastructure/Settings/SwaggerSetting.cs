@@ -14,7 +14,7 @@
         string LicenseUrl { get; init; }
     }
 
-    internal sealed record SwaggerSetting : ISwaggerSetting
+    public sealed record SwaggerSetting : ISwaggerSetting
     {
         public string DefinitionName { get; init; }
         public string Title { get; init; }

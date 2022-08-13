@@ -15,7 +15,7 @@
             if (string.IsNullOrWhiteSpace(text))
                 return text;
 
-            return CultureConstants.TurkishCulture.TextInfo.ToTitleCase(text.ToLower(CultureConstants.TurkishCulture));
+            return Cultures.Turkish.TextInfo.ToTitleCase(text.ToLowerWithTurkishCulture());
         }
 
         /// <summary>
@@ -28,7 +28,7 @@
             if (string.IsNullOrWhiteSpace(text))
                 return text;
 
-            return text.ToLower(CultureConstants.TurkishCulture);
+            return text.ToLower(Cultures.Turkish);
         }
 
         /// <summary>
@@ -41,7 +41,7 @@
             if (string.IsNullOrWhiteSpace(text))
                 return text;
 
-            return text.ToUpper(CultureConstants.TurkishCulture);
+            return text.ToUpper(Cultures.Turkish);
         }
 
         /// <summary>
@@ -54,7 +54,7 @@
             if (string.IsNullOrWhiteSpace(text))
                 return text;
 
-            return text.ToLower(CultureConstants.EnglishCulture);
+            return text.ToLower(Cultures.English);
         }
 
         /// <summary>
@@ -67,7 +67,7 @@
             if (string.IsNullOrWhiteSpace(text))
                 return text;
 
-            return text.ToUpper(CultureConstants.EnglishCulture);
+            return text.ToUpper(Cultures.English);
         }
     }
 }

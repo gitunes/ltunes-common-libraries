@@ -5,37 +5,9 @@
         public static string ToSlugUrl(this string text)
         {
             if (string.IsNullOrWhiteSpace(text))
-                throw new ArgumentNullException(nameof(text), Message.TextRequired);
+                throw new ArgumentNullException(nameof(text), ExceptionMessage.TextRequired);
 
             return PrepareUrl(text);
-        }
-
-        public static string SlugUrl(this IUrlHelper helper, string text)
-        {
-            if (string.IsNullOrWhiteSpace(text))
-                throw new ArgumentNullException(nameof(text), Message.TextRequired);
-
-            return PrepareUrl(text);
-        }
-
-        public static string SlugUrl(params string[] keywords)
-        {
-            string text = string.Join(" ", keywords);
-
-            if (string.IsNullOrWhiteSpace(text))
-                throw new ArgumentNullException(nameof(text), Message.TextRequired);
-
-            return PrepareUrl(text);
-        }
-
-        public static string SlugUrl(this string formatableValue, params string[] keywords)
-        {
-            string text = string.Join(" ", keywords);
-
-            if (string.IsNullOrWhiteSpace(text))
-                throw new ArgumentNullException(nameof(text), Message.TextRequired);
-
-            return string.Format(formatableValue, PrepareUrl(text));
         }
 
         private static string PrepareUrl(string text)

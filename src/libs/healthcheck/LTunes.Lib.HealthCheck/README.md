@@ -1,8 +1,8 @@
-LTunes.Lib.Documentation
+LTunes.Lib.HealthCheck
 ============
 
 
-### LTunes.Lib.Documentation nedir?
+### LTunes.Lib.HealthCheck nedir?
 
 Api uygulamalarında oluşturulan servis (endpoint) adreslerinin okunaklı ve client-side çalışan takım arkadaşların işini kolaylaştırması için oluşturulmuş dokümantasyon kütüphanesidir. 
 
