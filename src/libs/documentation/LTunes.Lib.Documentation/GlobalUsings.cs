@@ -1,5 +1,6 @@
 ﻿global using LTunes.Lib.Documentation.Infrastructure.Constants;
 global using LTunes.Lib.Documentation.Infrastructure.Settings;
+global using LTunes.Lib.Shared.Exceptions;
 global using LTunes.Lib.Shared.Settings;
 global using LTunes.Lib.Shared.Utilities;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
