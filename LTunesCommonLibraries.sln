@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTunes.Lib.Shared", "src\li
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apiversion", "apiversion", "{30CAA388-F761-4A4B-AC32-6498062694DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTunes.Lib.ApiVersion", "src\libs\apiversion\DogusOto.Lib.ApiVersion\LTunes.Lib.ApiVersion.csproj", "{71F8815D-69F7-4632-8929-D2872428C736}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTunes.Lib.ApiVersion", "src\libs\apiversion\LTunes.Lib.ApiVersion\LTunes.Lib.ApiVersion.csproj", "{71F8815D-69F7-4632-8929-D2872428C736}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
