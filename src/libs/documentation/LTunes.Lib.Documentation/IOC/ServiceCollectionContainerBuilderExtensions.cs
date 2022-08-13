@@ -26,7 +26,7 @@
 
             ISwaggerSetting swaggerSetting = serviceProvider.GetRequiredService<ISwaggerSetting>();
             if (swaggerSetting.CheckIfClassPropertiesEmptyOrNull())
-                throw new ArgumentNullException(nameof(swaggerSetting), ExceptionMessage.SwaggerSettingRequired);
+                throw new SettingException(ExceptionMessage.SwaggerSettingRequired);
 
             services.AddEndpointsApiExplorer();
 
