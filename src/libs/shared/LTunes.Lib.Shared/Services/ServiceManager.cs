@@ -7,7 +7,11 @@
     {
         public static IResult Run(params IResult[] logics)
         {
-            return logics.FirstOrDefault(logic => !logic.Succeeded);
+            var result = logics.FirstOrDefault(logic => !logic.Succeeded);
+            if (result is not null)
+                return result;
+
+            return logics.Last();
         }
     }
 }

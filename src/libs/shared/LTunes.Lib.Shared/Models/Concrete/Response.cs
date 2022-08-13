@@ -16,11 +16,6 @@
             Data = data;
         }
 
-        public Response(T data, bool succeeded, string statusMessage, StatusCodeType statusCode) : base(succeeded, statusMessage, statusCode)
-        {
-            Data = data;
-        }
-
         public T Data { get; }
     }
 }

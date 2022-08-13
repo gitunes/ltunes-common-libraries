@@ -2,8 +2,7 @@
 {
     public interface IResult
     {
-        bool Succeeded { get; set;  }
+        bool Succeeded { get; set; }
         string StatusMessage { get; set; }
-        StatusCodeType StatusCode { get; set; }
     }
 }

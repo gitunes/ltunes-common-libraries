@@ -47,8 +47,8 @@
         /// <exception cref="ArgumentOutOfRangeException">method parameter is not in the specified range</exception>
         public static TEnum ToEnum<TEnum>(this int value) where TEnum : Enum
         {
-            if (0 >= value)
-                throw new ArgumentOutOfRangeException(nameof(value), Message.EnumValueRequired);
+            if (-1 >= value)
+                throw new ArgumentOutOfRangeException(nameof(value), ExceptionMessage.EnumValueRequired);
 
             return (TEnum)Enum.ToObject(typeof(TEnum), value);
         }
@@ -63,7 +63,7 @@
         public static TEnum ToEnumByDescription<TEnum>(this string description) where TEnum : Enum
         {
             if (string.IsNullOrWhiteSpace(description))
-                throw new ArgumentNullException(nameof(description), Message.NoMatchingBrandCode);
+                throw new ArgumentNullException(nameof(description), ExceptionMessage.NoMatchingBrandCode);
 
             description = description.ToUpperWithTurkishCulture();
 
@@ -82,7 +82,7 @@
                 }
             }
 
-            throw new ArgumentNullException(nameof(description), Message.NoMatchingBrandCode);
+            throw new ArgumentNullException(nameof(description), ExceptionMessage.NoMatchingBrandCode);
         }
     }
 }
