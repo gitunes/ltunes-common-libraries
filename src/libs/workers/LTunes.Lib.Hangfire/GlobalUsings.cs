@@ -1,0 +1,17 @@
+﻿global using Hangfire;
+global using Hangfire.Dashboard;
+global using Hangfire.SqlServer;
+global using HangfireBasicAuthenticationFilter;
+global using LTunes.Lib.Hangfire.Abstract;
+global using LTunes.Lib.Hangfire.Infrastructure.Constants;
+global using LTunes.Lib.Hangfire.Infrastructure.Settings;
+global using LTunes.Lib.Hangfire.IOC;
+global using LTunes.Lib.Shared.Settings;
+global using LTunes.Lib.Shared.Utilities;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.DependencyInjection.Extensions;
+global using Microsoft.Extensions.Options;
+global using System.Diagnostics.CodeAnalysis;
