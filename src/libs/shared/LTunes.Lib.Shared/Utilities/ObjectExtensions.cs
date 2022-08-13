@@ -40,7 +40,7 @@
         public static int ToInt(this object value)
         {
             if (value is null)
-                throw new ArgumentNullException(nameof(value), Message.ObjectValueRequired);
+                throw new ArgumentNullException(nameof(value), ExceptionMessage.ObjectValueRequired);
 
             return Convert.ToInt32(value);
         }

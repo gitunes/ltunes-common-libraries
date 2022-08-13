@@ -3,7 +3,7 @@
     /// <summary>
     /// Const roles for users
     /// </summary>
-    public static class Role
+    public record struct Roles
     {
         public const string Admin = "Yönetici";
         public const string User = "Kullanıcı";

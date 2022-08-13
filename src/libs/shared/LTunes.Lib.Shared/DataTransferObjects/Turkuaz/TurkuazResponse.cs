@@ -8,7 +8,11 @@
         {
             get
             {
-                return (bool)(Header?.RetCode.Equals(1));
+                if (Header is null || Header?.RetCode is null || Data is null)
+                    return false;
+
+
+                return Header.RetCode.Equals(1);
             }
             set => throw new NotImplementedException();
         }
@@ -18,18 +22,6 @@
             get
             {
                 return Header?.Message;
-            }
-            set => throw new NotImplementedException();
-        }
-
-        public StatusCodeType StatusCode
-        {
-            get
-            {
-                if ((bool)(Header?.RetCode.Equals(1)))
-                    return StatusCodeType.Success;
-
-                return StatusCodeType.Exception;
             }
             set => throw new NotImplementedException();
         }

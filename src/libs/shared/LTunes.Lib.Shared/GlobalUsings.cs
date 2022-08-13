@@ -1,12 +1,13 @@
 ﻿global using LTunes.Lib.Shared.Constants;
-global using LTunes.Lib.Shared.Enums;
 global using LTunes.Lib.Shared.Models.Abstract;
 global using LTunes.Lib.Shared.Services;
 global using LTunes.Lib.Shared.Settings;
-global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.Hosting;
 global using System.ComponentModel;
 global using System.Globalization;
 global using System.Reflection;
+global using System.Runtime.Serialization;
+global using System.Security.Claims;
 global using System.Text;
 global using System.Text.Json;
 global using System.Text.RegularExpressions;
