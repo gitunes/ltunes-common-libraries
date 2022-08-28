@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTunes.Lib.Hangfire", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "filetransferprotocols", "filetransferprotocols", "{ADD7D7D7-5B41-42E5-9A58-F651977C7462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTuınes.Lib.FileTransferProtocol", "src\libs\filetransferprotocols\LTuınes.Lib.FileTransferProtocol\LTuınes.Lib.FileTransferProtocol.csproj", "{57CF3389-0F65-4702-BCB6-A1132C0610AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTuınes.Lib.FileTransferProtocol", "src\libs\filetransferprotocols\LTuınes.Lib.FileTransferProtocol\LTuınes.Lib.FileTransferProtocol.csproj", "{57CF3389-0F65-4702-BCB6-A1132C0610AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "authentication", "authentication", "{2458E9DB-E679-4E19-AEE1-81457092F4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTunes.Lib.Jwt", "src\libs\authentication\LTunes.Lib.Jwt\LTunes.Lib.Jwt.csproj", "{6CFEE8D6-BBD2-4972-A4FD-F2A18025C127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,10 @@ Global
 		{57CF3389-0F65-4702-BCB6-A1132C0610AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57CF3389-0F65-4702-BCB6-A1132C0610AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CF3389-0F65-4702-BCB6-A1132C0610AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFEE8D6-BBD2-4972-A4FD-F2A18025C127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFEE8D6-BBD2-4972-A4FD-F2A18025C127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFEE8D6-BBD2-4972-A4FD-F2A18025C127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFEE8D6-BBD2-4972-A4FD-F2A18025C127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +97,8 @@ Global
 		{60799905-369D-47DE-AA66-ADF65BBA5C10} = {84745712-5519-4BFB-8F4B-87CFE7003E8A}
 		{ADD7D7D7-5B41-42E5-9A58-F651977C7462} = {249652E8-0B50-4098-A748-3AA47660FD87}
 		{57CF3389-0F65-4702-BCB6-A1132C0610AF} = {ADD7D7D7-5B41-42E5-9A58-F651977C7462}
+		{2458E9DB-E679-4E19-AEE1-81457092F4C3} = {249652E8-0B50-4098-A748-3AA47660FD87}
+		{6CFEE8D6-BBD2-4972-A4FD-F2A18025C127} = {2458E9DB-E679-4E19-AEE1-81457092F4C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D456D214-D4E5-4522-9CA8-BC84C74F4C82}
